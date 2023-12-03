@@ -19,7 +19,6 @@ public class RotateImage {
                 System.out.print(ints[j] + " ");
             }
             System.out.println();
-
         }
     }
 
@@ -42,7 +41,9 @@ public class RotateImage {
         }
     }
 
-    // with extra Space
+    /*
+    * with extra Space
+    * */
     public static void rotate1(int[][] matrix) {
         int n = matrix.length ;
         int[][] temp = new int[n][n];
