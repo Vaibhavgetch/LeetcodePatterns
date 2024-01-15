@@ -1,4 +1,4 @@
-package Trees.BinaryTrees.Traversal;
+package DSA.Trees.BinaryTrees.Traversal;
 
 /*
   Definition for a binary tree node.

@@ -1,4 +1,4 @@
-package Leetcode.POTD;
+package DSA.POTD;
 
 public class Leetcode1903 {
     public static void main(String[] args) {

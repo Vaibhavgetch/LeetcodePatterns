@@ -1,15 +1,15 @@
-package Trees.BinaryTrees.Traversal;
+package DSA.Trees.BinaryTrees.Traversal;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-
 /*
-*  https://leetcode.com/problems/binary-tree-inorder-traversal/
+* https://leetcode.com/problems/binary-tree-preorder-traversal/
 * */
-public class InOrderTraversal {
+public class PreOrderTraversal {
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         helper(root, ans);
         return ans;
@@ -19,9 +19,9 @@ public class InOrderTraversal {
         if (node == null) {
             return;
         }
-        helper(node.left, ans);
         ans.add(node.val);
+        helper(node.left, ans);
         helper(node.right, ans);
-
     }
+
 }

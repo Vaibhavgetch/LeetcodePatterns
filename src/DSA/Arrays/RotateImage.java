@@ -1,4 +1,4 @@
-package Arrays;
+package DSA.Arrays;
 
 /*Leetcode 48. Rotate Image
 *

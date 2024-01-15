@@ -1,6 +1,6 @@
-package Trees.BinaryTrees.Medium;
+package DSA.Trees.BinaryTrees.Medium;
 
-import Trees.BinaryTrees.Traversal.TreeNode;
+import DSA.Trees.BinaryTrees.Traversal.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

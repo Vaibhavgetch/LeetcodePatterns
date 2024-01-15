@@ -1,4 +1,4 @@
-package Trees.BinaryTrees.Medium;
+package DSA.Trees.BinaryTrees.Medium;
 
 
 /*

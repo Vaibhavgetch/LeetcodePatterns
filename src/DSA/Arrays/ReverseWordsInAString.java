@@ -1,4 +1,4 @@
-package Arrays;
+package DSA.Arrays;
 
 public class ReverseWordsInAString {
 
