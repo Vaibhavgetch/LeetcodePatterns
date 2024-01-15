@@ -1,4 +1,4 @@
-package Arrays;
+package DSA.Arrays;
 
 /*
 * LeetCode : 415
@@ -14,7 +14,6 @@ public class AddStrings {
 
     public String addStrings(String num1, String num2) {
         StringBuilder str = new StringBuilder();
-
         int i = num1.length() - 1;
         int j = num2.length() - 1;
         int carry = 0 ;
